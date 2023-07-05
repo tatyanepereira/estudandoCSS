@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url("https://img.freepik.com/free-vector/vector-polka-background-with-small-dots_1017-13972.jpg?w=740&t=st=1688532285~exp=1688532885~hmac=7327aa24a4ce3e71e4f4cea0b8199137ec395e8c1b1cc2a762961b5f59eebc5d");
+  background-repeat:repeat;
+  background-position: center;
+  background-attachment: scroll;
+  background-size: 400px;
+  text-align: center;
+  display: inline-block
+}
+
+main {
+  background-color: whitesmoke;
+  border-radius: 8px;
+  margin: 50px 100px;
+}
+
+.blog-secao {
+  padding: 12px 50px;
+  padding-bottom: 40px;
+}
+
+.blog-secao h2 {
+  text-align: center;
+}
+
+.blog-secao p {
+  text-align: justify;
+}
+
+.btn-group {
+  text-align: center;
+  display: inline-block; 
+}
+
+.btn {
+  background-color: #ad533c;
+  border: 0;
+  padding: 8px 12px;
+  cursor: pointer;
+  margin: 8px;
+  border-radius: 8px; 
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn:hover {
+  background-color: #483d4a;
+  color: white;
+}
+
+.material-symbols-outlined {
+  font-size: 14px;
+}
+
+.navegacao ul {
+  background-color: #3b353d;
+  text-align: center;
+}
+
+.navegacao li {
+  display: inline-block;
+}
+
+.navegacao a {
+  color: white;
+  text-decoration: none;
+  display: inline-block; 
+  padding: 12px 8px;
+}
+
+.navegacao a:hover {
+  color: #ad533c;
+}
+
+
+
+
+
